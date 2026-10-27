@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 241.019,
+    "vectorized_ms": 1.034,
+    "speedup": 233.09
+  },
+  "threads": {
+    "1": 2312.243,
+    "2": 2123.852,
+    "4": 2180.355,
+    "8": 2394.618
+  },
+  "devices": {
+    "cpu_ms": 441705.8,
+    "gpu_ms": 12770.8
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4638,
+    "param_count": 4935680
+  },
+  "sample": "\nGod--is'd's gone:\nSince that me; and states us from to hear;\nAs less, them slay; thou a fool-stand her of my\nThy Kate. Yow mind Henry: I place to ask-need\nHe not chereath, we uncle you not mock souly.",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-clouds-2026-eurecomgpt/model.safetensors"
+  }
+}
